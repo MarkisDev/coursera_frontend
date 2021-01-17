@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+/* Responsive framework */
+.row {
+    width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+    section#one{
+        margin-left: 150px;
+        margin-right: 20px;
+    }
+    section#two {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    section#one{
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    section#two {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    #three > p {
+        margin-top: 5%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+  }
+
+ /* Main code */  
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(10, 10, 10);
+    overflow: none;
+    color: white;
+}
+p{
+    margin-top: 12%;;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h1#heading {
+    text-align: center;
+    font-size: 3em;
+}
+section {
+    position: relative;
+    font-size: 1.1em;
+    border: 2px solid white;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.title-1{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 30%;
+    background: #1abc9c;
+    font-size: 1.1em;
+    color: white;
+    padding: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 0;
+    text-align: center;
+   
+}
+.title-2{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 30%;
+    background: #6888BE;
+    font-size: 1.1em;
+    color: white;
+    padding: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 0;
+    text-align: center;
+   
+}
+.title-3{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 30%;
+    background:rgb(175, 46, 46);
+    font-size: 1.1em;
+    color: white;
+    padding: 5px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 0;
+    text-align: center;
+   
+}
+
+.main {
+    margin-top: 50px;
+
+}
